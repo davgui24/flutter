@@ -1,0 +1,121 @@
+
+https://api.cloudinary.com/v1_1/dz2bv8w5b/image/upload?upload_preset=nolli8ks
+
+
+
+import 'package:flutter/material.dart';
+ 
+void main() => runApp(MyApp());
+ 
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Material App',
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Componentes'),
+        ),
+        body: Center(
+          child: Container(
+            child: Text('Hello World'),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+
+=======================================
+***  CONFIGURACION DE RUTAS EN EL main
+return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'QR Reader',
+      initialRoute: 'home',
+      routes: {
+        'home': (BuildContext context) => HomePage(),
+        'mapa': (BuildContext context) => MapaPage()
+      },
+      theme: ThemeData(
+        primaryColor: Colors.deepPurple
+      ),
+    );
+
+
+
+=======================================
+Navigator.pushNamed(context, 'mapa', arguments: scan);   ***  pasar a otra pagina con argumentos
+
+
+=======================================
+final ScanModel scan = ModalRoute.of(context).settings.arguments;   *** Recibir argumentos de otra pagina
+
+
+
+
+=======================================
+
+
+fit: BoxFit.cover,   -->  Coloca todas la imagenes del mismo tamaño  ** FadeInImage
+
+
+=======================================
+
+borderRadius: BorderRadius.circular(20.0), ** ClipRRect
+
+
+
+=======================================
+
+overflow: TextOverflow.ellipsis, --> comoca puntos suspensivos cuando un texto no cabe ** Text
+
+
+
+=======================================
+return GestureDetector(
+        child: tarjeta,
+        onTap: (){
+          Navigator.pushNamed(context, 'detalle',arguments: pelicula);
+        },
+      );
+
+
+
+=======================================
+IconButton(
+        icon: Icon(Icons.clear), 
+        onPressed: null
+        )
+
+
+
+
+
+=======================================
+return Center(
+            child: CircularProgressIndicator(),
+          );
+
+
+=======================================
+final estiloTitulo = TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold);
+
+
+**************  RUTAS  *************
+void main() => runApp(MyApp());
+ 
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Diseños',
+      initialRoute: 'scroll',
+      routes: {
+        'basico': (BuildContext context) => BasicoPage(),
+        'scroll': (BuildContext context) => (ScrollPage()),
+      },
+    );
+  }
