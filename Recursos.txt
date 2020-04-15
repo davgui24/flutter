@@ -1,5 +1,17 @@
-
+https://pub.dev/packages/
 https://api.cloudinary.com/v1_1/dz2bv8w5b/image/upload?upload_preset=nolli8ks
+
+flutter create -i swift .a java --androidx <--ogr> <sertruc.ingenieria.co> <nombre_proyecto>  
+
+
+EXTENCIONE VISUAL STUDIO CODE:
+Awesome Flutter Snippets
+
+
+final size = MediaQuery.of(context).size;
+
+
+************************************
 
 
 

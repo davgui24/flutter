@@ -1,0 +1,2 @@
+https://www.flaticon.com/
+https://pub.dev/packages/flutter_svg

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "409036164851",
+    "firebase_url": "https://clubspeedy-dev.firebaseio.com",
+    "project_id": "clubspeedy-dev",
+    "storage_bucket": "clubspeedy-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409036164851:android:30bd12e9e7e2690b82f186",
+        "android_client_info": {
+          "package_name": "com.example.pruebafirestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409036164851-srktsvmj1t472n476ojfjms3ho4pmu2a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLwbcIy_KxwhSABJapHs8XIlR-pbMmfnE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409036164851-srktsvmj1t472n476ojfjms3ho4pmu2a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

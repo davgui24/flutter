@@ -34,11 +34,11 @@ class PushNotificationsProvider{
 
 // cuando la app esta en segundo plano
       onLaunch: (info){
-      print('===== On Launch ======');
-      print(info);
+        print('===== On Launch ======');
+        print(info);
       
-      final noti = info['data']['gaseosa'];
-      _mensajesStreamController.sink.add(noti);
+        final noti = info['data']['gaseosa'];
+        _mensajesStreamController.sink.add(noti);
       },
 
 
